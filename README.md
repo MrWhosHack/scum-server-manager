@@ -1,6 +1,6 @@
 # 🎮 SCUM Server Manager Pro
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PySide6](https://img.shields.io/badge/PySide6-6.0+-green.svg)](https://pypi.org/project/PySide6/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
@@ -359,7 +359,16 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (CC BY-NC-SA 4.0).
+See the full license in the [LICENSE](LICENSE) file or online: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Summary of what this means:
+- You are free to copy, modify and redistribute this work, as long as:
+    - You give appropriate credit (attribution).
+    - You do not use the work for commercial purposes (NonCommercial).
+    - You distribute derivatives under the same license (ShareAlike).
+
+If you need a commercial license (permission to sell or include this software in commercial products), please contact the project maintainers to arrange a commercial licensing agreement.
 
 ### Copyright
 

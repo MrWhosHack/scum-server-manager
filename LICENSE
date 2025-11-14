@@ -1,21 +1,21 @@
-MIT License
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
 
 Copyright (c) 2025 SCUM Server Manager Project
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Short summary of your rights under this license:
+- You are free to: Share (copy and redistribute the material in any medium or format) and Adapt (remix, transform, and build upon the material).
+- Under the following terms:
+	- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+	- NonCommercial — You may not use the material for commercial purposes.
+	- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Full license text and details: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Notes & clarifications:
+- This license allows users to modify and redistribute the code for non-commercial purposes, and requires derivative works to be shared under the same license.
+- It does not permit commercial distribution or selling of the software.
+- Adding this license does not by itself prevent someone from falsely claiming authorship; the license requires attribution and preserving copyright notices. For stronger protections about authorship claims or trademarks, consider adding a trademark, contributor agreement, or a separate clause and consult a legal professional.
+
+If you prefer a different legal model (for example, strong copyleft that allows commercial use like AGPLv3, or a custom non-commercial source-available license), tell me and I can replace this LICENSE with the chosen text.
