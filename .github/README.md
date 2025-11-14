@@ -41,4 +41,4 @@ MIT License - Free to use, modify, and distribute
 
 ---
 
-**[⭐ Star this project](https://github.com/YOUR_USERNAME/scum-server-manager)** if you find it useful!
+**[⭐ Star this project](https://github.com/MrWhosHack/scum-server-manager)** if you find it useful!

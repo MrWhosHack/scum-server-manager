@@ -7,6 +7,13 @@
 
 > **Professional-grade server management and administration tool for SCUM game servers**
 
+### 🚀 Quick Links
+
+- [Installation Guide](QUICK_START_GUIDE.md)
+- [Full Documentation](SCUM_CONFIG_GUIDE.md)
+- [Database Guide](SQLITESTUDIO_PRO_GUIDE.md)
+- [Contributing (GitHub)](CONTRIBUTING.md)
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -328,6 +335,45 @@ Executable will be created in `dist/` folder.
 
 ---
 
+## 🖱️ One‑Click Windows EXE
+
+You can build a ready‑to‑share EXE with one command.
+
+Option A — One‑click script:
+
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\build_windows_exe.ps1
+```
+
+Option B — Double‑click BAT:
+
+- Run `scripts\build_exe.bat` (calls the PowerShell script above)
+
+Output: `dist\SCUM-Server-Manager.exe`
+
+What the builder does:
+- Creates a temporary virtual environment `.venv-build`
+- Installs project requirements + PyInstaller
+- Packages the app with PySide6 assets
+- Includes `config_presets.json` and the `Config/` folder inside the EXE bundle
+
+If SmartScreen warns on first run, click “More info” → “Run anyway”.
+
+---
+
+## ▶️ Run From Source (No EXE)
+
+If you prefer not to build an EXE:
+
+```powershell
+python -m pip install -r requirements.txt
+python .\scum_server_manager_pyside.py
+```
+
+Or simply double‑click: `run_scum_pyside.bat` (will prompt for admin and auto‑install missing packages).
+
+---
+
 ## 📚 Learning Resources
 
 ### Official SCUM Resources
@@ -382,9 +428,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 ## 💬 Support
 
-- **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/scum-server-manager/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/scum-server-manager/discussions)
-- **Wiki**: [Project Wiki](https://github.com/YOUR_USERNAME/scum-server-manager/wiki)
+- **Issues**: [GitHub Issues](https://github.com/MrWhosHack/scum-server-manager/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/MrWhosHack/scum-server-manager/discussions)
+- **Wiki**: [Project Wiki](https://github.com/MrWhosHack/scum-server-manager/wiki)
 
 ---
 
