@@ -18,6 +18,7 @@
 - [Full Documentation](../SCUM_CONFIG_GUIDE.md)
 - [Database Guide](../SQLITESTUDIO_PRO_GUIDE.md)
 - [Contributing](../CONTRIBUTING.md)
+- [Getting Started](../GETTING_STARTED.md)
 
 ### 📦 Requirements
 

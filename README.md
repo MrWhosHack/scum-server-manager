@@ -9,6 +9,7 @@
 
 ### 🚀 Quick Links
 
+- [Getting Started](GETTING_STARTED.md)
 - [Installation Guide](QUICK_START_GUIDE.md)
 - [Full Documentation](SCUM_CONFIG_GUIDE.md)
 - [Database Guide](SQLITESTUDIO_PRO_GUIDE.md)
