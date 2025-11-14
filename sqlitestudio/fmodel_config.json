@@ -1,0 +1,23 @@
+{
+  "games": {
+    "SCUM": {
+      "name": "SCUM",
+      "directory": "C:\\ScumServer\\SCUM\\Content\\Paks",
+      "ue_version": "GAME_UE4_27",
+      "aes_key": "0x0B1F4E543FB798EFC5BD861BB405BE7081CD03698EA9BA06469462A3B113CA81",
+      "is_detected": true
+    }
+  },
+  "current_game": "SCUM",
+  "export_directory": "./exported_assets",
+  "preview_cache": "./preview_cache",
+  "auto_detect_games": true,
+  "ue_version": "GAME_UE4_27",
+  "loading_mode": "All",
+  "texture_format": "PNG",
+  "model_format": "PSK",
+  "audio_format": "WAV",
+  "show_folder_counts": true,
+  "auto_expand_tree": false,
+  "max_preview_size": 512
+}

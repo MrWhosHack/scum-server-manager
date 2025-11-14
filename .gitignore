@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+Logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+test_database.db
+test_editing.db
+
+# Backup files
+*.bak
+*.backup
+backup_*
+
+# Config - keep templates, ignore user configs
+scum_settings.json
+scum_setup.json
+Config/server.cfg
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Test files
+test_*.py
+!test_comprehensive.py
+
+# Compiled files
+*.pyc
+*.pyo

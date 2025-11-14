@@ -1,0 +1,367 @@
+{
+  "presets": {
+    "PvE_Casual": {
+      "name": "PvE Casual - Friendly Survival",
+      "description": "Easy PvE server with increased loot, slower metabolism, and reduced difficulty. Perfect for new players and casual gaming.",
+      "settings": {
+        "Game.ini": {
+          "PlayerDamageMultiplier": 0.5,
+          "PuppetDamageMultiplier": 0.7,
+          "AnimalDamageMultiplier": 0.7,
+          "LootSpawnMultiplier": 2.0,
+          "WeaponSpawnMultiplier": 1.5,
+          "AmmoSpawnMultiplier": 2.0,
+          "FoodSpawnMultiplier": 2.0,
+          "MedicalSpawnMultiplier": 2.0,
+          "LootRespawnTime": 900.0,
+          "MetabolismRateMultiplier": 0.5,
+          "HungerRateMultiplier": 0.5,
+          "ThirstRateMultiplier": 0.5,
+          "RespawnTime": 30.0,
+          "EnablePvP": false,
+          "EnableSafezones": true,
+          "NoobProtectionTime": 3600.0,
+          "AIMaxCount": 30,
+          "AISpawnMultiplier": 0.7,
+          "AIHealthMultiplier": 0.8,
+          "CraftingTimeMultiplier": 0.7,
+          "VehicleSpawnMultiplier": 1.5,
+          "VehicleFuelConsumptionMultiplier": 0.7,
+          "TimeAcceleration": 6.0,
+          "TimeAccelerationNightMultiplier": 12.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 64,
+          "KickIdlePlayers": false,
+          "EnableNameTags": true,
+          "NameTagDistance": 100.0
+        }
+      }
+    },
+    "PvP_Hardcore": {
+      "name": "PvP Hardcore - Brutal Survival",
+      "description": "Extreme difficulty PvP server with scarce loot, fast metabolism, and deadly combat. For experienced players seeking the ultimate challenge.",
+      "settings": {
+        "Game.ini": {
+          "PlayerDamageMultiplier": 2.0,
+          "PuppetDamageMultiplier": 1.5,
+          "AnimalDamageMultiplier": 1.5,
+          "FallDamageMultiplier": 2.0,
+          "LootSpawnMultiplier": 0.5,
+          "WeaponSpawnMultiplier": 0.3,
+          "AmmoSpawnMultiplier": 0.4,
+          "FoodSpawnMultiplier": 0.6,
+          "MedicalSpawnMultiplier": 0.5,
+          "LootRespawnTime": 3600.0,
+          "MetabolismRateMultiplier": 2.0,
+          "HungerRateMultiplier": 2.0,
+          "ThirstRateMultiplier": 2.0,
+          "RespawnTime": 300.0,
+          "EnablePvP": true,
+          "EnableFriendlyFire": true,
+          "FriendlyFireMultiplier": 1.0,
+          "EnableSafezones": false,
+          "NoobProtectionTime": 0.0,
+          "AIMaxCount": 100,
+          "AISpawnMultiplier": 1.5,
+          "AIHealthMultiplier": 1.5,
+          "AISpeedMultiplier": 1.2,
+          "EnableAIHordes": true,
+          "HordeSize": 30,
+          "HordeSpawnChance": 0.2,
+          "CraftingTimeMultiplier": 1.5,
+          "VehicleSpawnMultiplier": 0.5,
+          "VehicleFuelConsumptionMultiplier": 1.5,
+          "TimeAcceleration": 2.0,
+          "TimeAccelerationNightMultiplier": 2.0,
+          "EnableBaseRaiding": true,
+          "BuildingDecayTime": 259200.0,
+          "DeathPenaltyMultiplier": 0.2
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 100,
+          "KickIdlePlayers": true,
+          "IdleKickTime": 600,
+          "EnableNameTags": false,
+          "EnableCrosshair": false
+        }
+      }
+    },
+    "RP_Realism": {
+      "name": "Roleplay Realism - Immersive Experience",
+      "description": "Realistic roleplay server with real-time, full metabolism simulation, faction systems, and economy focus.",
+      "settings": {
+        "Game.ini": {
+          "TimeAcceleration": 1.0,
+          "TimeAccelerationNightMultiplier": 1.0,
+          "MetabolismRateMultiplier": 1.5,
+          "HungerRateMultiplier": 1.5,
+          "ThirstRateMultiplier": 1.5,
+          "EnableVitamins": true,
+          "VitaminDecayRate": 1.0,
+          "EnableDiseases": true,
+          "DiseaseChance": 0.15,
+          "EnableBladderSimulation": true,
+          "BladderFillRate": 1.2,
+          "LootSpawnMultiplier": 1.0,
+          "LootRespawnTime": 1800.0,
+          "CraftingTimeMultiplier": 2.0,
+          "EnableAdvancedCrafting": true,
+          "EnableBlueprintSystem": true,
+          "EnableTrading": true,
+          "EnablePlayerTrading": true,
+          "EnableDynamicPricing": true,
+          "EnableFactions": true,
+          "FactionSizeLimit": 15,
+          "EnableFactionWars": true,
+          "EnableFactionBases": true,
+          "EnableBaseBuilding": true,
+          "BuildingDecayTime": 1209600.0,
+          "EnableBaseRaiding": true,
+          "RaidWindowStart": 20.0,
+          "RaidWindowEnd": 23.0,
+          "EnablePvP": true,
+          "EnableFriendlyFire": false,
+          "PvPDamageMultiplier": 1.0,
+          "RespawnTime": 120.0,
+          "VehicleSpawnMultiplier": 0.8,
+          "EnableVehicleLocking": true,
+          "AIMaxCount": 40,
+          "EnableDynamicWeather": true,
+          "WeatherImpactMultiplier": 1.5,
+          "EnableFameSystem": true,
+          "FameGainMultiplier": 1.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 80,
+          "ServerDescription": "Roleplay server - stay in character!",
+          "KickIdlePlayers": true,
+          "IdleKickTime": 1200,
+          "EnableProximityChat": true,
+          "EnableGroupChat": true,
+          "EnableVoiceChat": true,
+          "EnablePushToTalk": true
+        }
+      }
+    },
+    "High_Action": {
+      "name": "High Action - Loot & Combat",
+      "description": "Fast-paced action server with abundant loot, frequent events, and constant combat. Maximum excitement!",
+      "settings": {
+        "Game.ini": {
+          "LootSpawnMultiplier": 3.0,
+          "WeaponSpawnMultiplier": 2.5,
+          "AmmoSpawnMultiplier": 3.0,
+          "MedicalSpawnMultiplier": 2.0,
+          "LootRespawnTime": 600.0,
+          "LootQualityMultiplier": 1.5,
+          "RareItemChance": 0.15,
+          "VehicleSpawnMultiplier": 2.0,
+          "VehicleFuelConsumptionMultiplier": 0.5,
+          "AIMaxCount": 75,
+          "AISpawnMultiplier": 1.5,
+          "EnableAIHordes": true,
+          "HordeSize": 20,
+          "HordeSpawnChance": 0.15,
+          "EnableRandomEvents": true,
+          "EventSpawnMultiplier": 2.0,
+          "EnableAirdrops": true,
+          "AirdropFrequency": 1800.0,
+          "AirdropLootQuality": 2.5,
+          "EnableMechs": true,
+          "MechSpawnChance": 0.1,
+          "RespawnTime": 20.0,
+          "RespawnProtectionTime": 10.0,
+          "EnablePvP": true,
+          "PvPDamageMultiplier": 1.2,
+          "MetabolismRateMultiplier": 0.7,
+          "CraftingTimeMultiplier": 0.5,
+          "TimeAcceleration": 8.0,
+          "TimeAccelerationNightMultiplier": 16.0,
+          "SkillGainMultiplier": 2.0,
+          "ExperienceMultiplier": 2.0,
+          "FameGainMultiplier": 2.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 100,
+          "TickRate": 30,
+          "EnableNameTags": true,
+          "NameTagDistance": 75.0,
+          "EnableKillFeed": true
+        }
+      }
+    },
+    "Performance_Optimized": {
+      "name": "Performance Optimized",
+      "description": "Optimized for lower-end hardware and better performance. Reduced AI, simulation distance, and visual effects.",
+      "settings": {
+        "Game.ini": {
+          "AIMaxCount": 25,
+          "AISpawnMultiplier": 0.7,
+          "MaxTickRate": 20.0,
+          "SimulationDistance": 5000.0,
+          "DespawnDistance": 3000.0,
+          "NetworkUpdateRate": 15.0,
+          "EnablePerformanceOptimization": true,
+          "MaxPlayersPerArea": 12,
+          "EnableLODSystem": true,
+          "EnableOcclusionCulling": true,
+          "PhysicsSimulationRate": 20.0,
+          "EnableAIHordes": false,
+          "EventSpawnMultiplier": 0.5,
+          "EnableDynamicWeather": false,
+          "AnimalSpawnMultiplier": 0.7,
+          "VehicleSpawnMultiplier": 0.8
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 50,
+          "TickRate": 20,
+          "NetworkUpdateRate": 15,
+          "MaxNetworkDataSize": 32768,
+          "UseCompression": true
+        },
+        "Engine.ini": {
+          "MaxClientRate": 50000,
+          "MaxInternetClientRate": 50000,
+          "NetServerMaxTickRate": 20
+        },
+        "Scalability.ini": {
+          "sg.ViewDistanceQuality": 1,
+          "sg.ShadowQuality": 0,
+          "sg.PostProcessQuality": 0,
+          "sg.EffectsQuality": 0,
+          "sg.FoliageQuality": 1
+        }
+      }
+    },
+    "Balanced_Default": {
+      "name": "Balanced Default - Standard Experience",
+      "description": "Balanced server settings for a standard SCUM experience. Good starting point for most servers.",
+      "settings": {
+        "Game.ini": {
+          "PlayerDamageMultiplier": 1.0,
+          "PuppetDamageMultiplier": 1.0,
+          "AnimalDamageMultiplier": 1.0,
+          "LootSpawnMultiplier": 1.0,
+          "MetabolismRateMultiplier": 1.0,
+          "RespawnTime": 60.0,
+          "EnablePvP": true,
+          "EnableSafezones": true,
+          "AIMaxCount": 50,
+          "AISpawnMultiplier": 1.0,
+          "CraftingTimeMultiplier": 1.0,
+          "VehicleSpawnMultiplier": 1.0,
+          "TimeAcceleration": 4.0,
+          "TimeAccelerationNightMultiplier": 8.0,
+          "EnableBaseBuilding": true,
+          "EnableTrading": true,
+          "EnableFactions": true,
+          "SkillGainMultiplier": 1.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 64,
+          "TickRate": 30,
+          "KickIdlePlayers": true,
+          "IdleKickTime": 900,
+          "EnableNameTags": true,
+          "NameTagDistance": 50.0
+        }
+      }
+    },
+    "Survival_Expert": {
+      "name": "Survival Expert - Challenging PvE",
+      "description": "Tough survival experience with scarce resources, harsh environment, but no PvP. Survive the island!",
+      "settings": {
+        "Game.ini": {
+          "PlayerDamageMultiplier": 1.5,
+          "PuppetDamageMultiplier": 1.3,
+          "AnimalDamageMultiplier": 1.3,
+          "LootSpawnMultiplier": 0.7,
+          "WeaponSpawnMultiplier": 0.6,
+          "AmmoSpawnMultiplier": 0.7,
+          "FoodSpawnMultiplier": 0.6,
+          "MedicalSpawnMultiplier": 0.7,
+          "LootRespawnTime": 2400.0,
+          "MetabolismRateMultiplier": 1.3,
+          "HungerRateMultiplier": 1.3,
+          "ThirstRateMultiplier": 1.3,
+          "EnableVitamins": true,
+          "EnableDiseases": true,
+          "DiseaseChance": 0.12,
+          "EnableBladderSimulation": true,
+          "RespawnTime": 120.0,
+          "EnablePvP": false,
+          "EnableSafezones": true,
+          "AIMaxCount": 70,
+          "AISpawnMultiplier": 1.3,
+          "AIHealthMultiplier": 1.2,
+          "EnableAIHordes": true,
+          "HordeSize": 15,
+          "AnimalSpawnMultiplier": 1.2,
+          "EnableAnimalAggression": true,
+          "PredatorSpawnMultiplier": 1.3,
+          "CraftingTimeMultiplier": 1.3,
+          "VehicleSpawnMultiplier": 0.7,
+          "VehicleFuelConsumptionMultiplier": 1.2,
+          "EnableDynamicWeather": true,
+          "WeatherImpactMultiplier": 1.5,
+          "ExtremeWeatherMultiplier": 1.3,
+          "TimeAcceleration": 3.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 60,
+          "EnableNameTags": true,
+          "NameTagDistance": 30.0,
+          "KickIdlePlayers": true,
+          "IdleKickTime": 900
+        }
+      }
+    },
+    "Build_Creative": {
+      "name": "Build & Creative Mode",
+      "description": "Focus on base building and creativity. Reduced threats, increased resources, faster crafting.",
+      "settings": {
+        "Game.ini": {
+          "EnablePvP": false,
+          "PlayerDamageMultiplier": 0.3,
+          "PuppetDamageMultiplier": 0.5,
+          "AnimalDamageMultiplier": 0.5,
+          "AIMaxCount": 20,
+          "AISpawnMultiplier": 0.5,
+          "EnableAIHordes": false,
+          "LootSpawnMultiplier": 2.5,
+          "ResourceSpawnMultiplier": 3.0,
+          "WoodGatheringMultiplier": 3.0,
+          "StoneGatheringMultiplier": 3.0,
+          "MetalGatheringMultiplier": 3.0,
+          "MetabolismRateMultiplier": 0.3,
+          "HungerRateMultiplier": 0.3,
+          "ThirstRateMultiplier": 0.3,
+          "CraftingTimeMultiplier": 0.3,
+          "CraftingCostMultiplier": 0.5,
+          "EnableBaseBuilding": true,
+          "MaxBasesPerPlayer": 10,
+          "BaseRadiusLimit": 100.0,
+          "BuildingHealthMultiplier": 2.0,
+          "BuildingCostMultiplier": 0.5,
+          "BuildingDecayTime": 2592000.0,
+          "EnableBaseDamage": false,
+          "EnableBaseRaiding": false,
+          "VehicleSpawnMultiplier": 2.0,
+          "VehicleFuelConsumptionMultiplier": 0.3,
+          "MaxVehiclesPerPlayer": 10,
+          "TimeAcceleration": 10.0,
+          "TimeAccelerationNightMultiplier": 20.0,
+          "SkillGainMultiplier": 3.0
+        },
+        "ServerSettings.ini": {
+          "MaxPlayers": 50,
+          "EnableSafezones": true,
+          "EnableNameTags": true,
+          "NameTagDistance": 100.0,
+          "KickIdlePlayers": false
+        }
+      }
+    }
+  }
+}
