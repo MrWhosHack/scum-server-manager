@@ -14,7 +14,7 @@
 
 Gone are the days of manually editing configuration files, searching through endless logs, and juggling multiple tools. SCUM Server Manager consolidates **everything into a single, elegant GUI** that's powerful enough for veterans yet approachable for newcomers. Whether you're running a casual PvE server or a hardcore PvP community, this manager adapts to your needs.
 
-### Complete Server Control
+Complete Server Control
 
 Take command of '''365+ server settings''' spanning every aspect of the SCUM experience:
 * Time cycles and weather systems
@@ -27,9 +27,9 @@ Take command of '''365+ server settings''' spanning every aspect of the SCUM exp
 * Crafting speeds and blueprints
 * And much more...
 
-**Eight expertly crafted presets** let you instantly configure your server for different play styles, while advanced users can fine-tune every parameter for the perfect custom experience.
+Eight expertly crafted presets** let you instantly configure your server for different play styles, while advanced users can fine-tune every parameter for the perfect custom experience.
 
-### Real-Time Intelligence
+Real-Time Intelligence
 
 Monitor your server's heartbeat with:
 - **Live player tracking** - Instant connection/disconnection alerts
@@ -38,26 +38,21 @@ Monitor your server's heartbeat with:
 - **Performance monitoring** - CPU, RAM, and disk usage tracking
 - **Multi-category logging** - Separate logs for server, players, admin, and errors
 
-### Professional Features
+Professional Features
 
 | Feature | Description |
-|---------|-------------|
+
 | **GUI Configuration Editor** | Modify all INI files through an intuitive graphical interface |
 | **Database Management** | Built-in SQLiteStudio for advanced player data manipulation |
 | **Admin Controls** | Kick, ban, and teleport players with one click (RCON support) |
 | **Smart Automation** | Auto-detection of server paths, automatic backups, intelligent log parsing |
 | **Modern Dark Theme** | Professional Qt6 interface with smooth animations and responsive design |
 
----
 
 === 📦 Technical Information ===
 
-{| class="wikitable"
-|-
-! Property !! Value
-|-
-| '''Platform''' || Windows 10/11
-|-
+Platform Windows 10/11
+
 | '''Requirements''' || Python 3.8+ (or use standalone EXE)
 |-
 | '''License''' || [https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0]
@@ -67,11 +62,11 @@ Monitor your server's heartbeat with:
 | '''Status''' || ✅ Actively maintained and updated
 |-
 | '''Testing Status''' || ⚠️ Currently in testing phase
-|}
 
----
 
-## ✨ Features
+
+
+✨ Features
 
 === 🖥️ Server Management ===
 
@@ -85,27 +80,25 @@ Monitor your server's heartbeat with:
 
 '''Complete INI File Access''' - Edit all server configuration files from one interface:
 
-{| class="wikitable"
-|-
-! Configuration File !! Settings Count !! Purpose
-|-
-| ServerSettings.ini || 80+ || Server, network, admin, chat, voice
-|-
-| Game.ini || 200+ || Gameplay, survival, loot, AI, vehicles, economy
-|-
-| Engine.ini || 30+ || Rendering, network, performance
-|-
-| Scalability.ini || 40+ || Quality presets, LOD, effects
-|-
-| Input.ini || 15+ || Mouse, keyboard, gamepad
-|}
 
-'''8 Ready-to-Use Server Presets:'''
+Configuration File - Settings - PlayerCount
 
-{| class="wikitable"
-|-
-! Preset !! Difficulty !! Loot Rate !! Best For
-|-
+ServerSettings.ini 80+  Server, network, admin, chat, voice
+
+Game.ini  200+ Gameplay, survival, loot, AI, vehicles, economy
+
+Engine.ini 30+ Rendering, network, performance
+
+Scalability.ini 40+ Quality presets, LOD, effects
+
+Input.ini 5+ Mouse, keyboard, gamepad
+
+
+8 Ready-to-Use Server Presets:
+
+
+Difficulty - Loot Rate 
+
 | '''PvE Casual''' || ⭐ Easy || 2x || New players, relaxed gameplay
 |-
 | '''PvP Hardcore''' || ⭐⭐⭐⭐⭐ Extreme || 0.5x || Veterans, brutal survival
@@ -121,9 +114,9 @@ Monitor your server's heartbeat with:
 | '''Survival Expert''' || ⭐⭐⭐⭐ Hard || 0.75x || Challenging PvE
 |-
 | '''Build & Creative''' || ⭐ Very Easy || 3x || Base building focus
-|}
 
-'''Additional Features:'''
+
+Additional Features:
 * Visual Preset Switcher - Quick configuration switching with one click
 * Configuration Backup/Restore - Automatic backup system with restore points
 * Live Preview - See setting changes before applying
@@ -157,24 +150,18 @@ Monitor your server's heartbeat with:
 
 === 📝 Logging & Events ===
 
-'''Multi-Category Logging System:'''
+Multi-Category Logging System:
 
-{| class="wikitable"
-|-
-! Log Category !! Contents
-|-
+Log Category - Contents
+
 | '''Server Logs''' || Startup, shutdown, errors, ready state
-|-
 | '''Player Logs''' || Connections, disconnections, authentications
-|-
 | '''Admin Logs''' || Commands, actions, RCON activity
-|-
 | '''Error Logs''' || Warnings, exceptions, critical errors
-|-
 | '''Event Logs''' || Airdrops, mechs, server events
-|}
 
-'''Features:'''
+
+Features:
 * Real-Time Log Tailing - Live log file monitoring with auto-scroll
 * Log Parsing - Automatic extraction of player events from SCUM server logs
 * Color-Coded Output - Easy identification of errors, warnings, info
@@ -189,32 +176,23 @@ Monitor your server's heartbeat with:
 * '''Keyboard Shortcuts''' - Quick access to common functions
 * '''Drag & Drop''' - Easy file and folder selection
 
----
 
-## 🚀 Installation
+🚀 Installation
 
 === Prerequisites ===
 
 Before installing, ensure you have:
 
-{| class="wikitable"
-|-
-! Requirement !! Details
-|-
+Requirement  Details
 | '''Operating System''' || Windows 10 or Windows 11
-|-
 | '''Python''' || Version 3.8+ (3.10+ recommended)<br/>Download from [https://www.python.org/downloads/ python.org]<br/>✅ Check "Add Python to PATH" during installation
-|-
 | '''Administrator Privileges''' || Required for starting the SCUM server
-|-
 | '''SCUM Dedicated Server''' || Installed via SteamCMD or Steam
-|-
 | '''Network Ports''' || UDP 7777, UDP 7778, TCP 8881 (RCON)
-|}
 
 === Method 1: Run From Source (Recommended) ===
 
-'''Step 1: Download the project'''
+Step 1: Download the project
 
 <syntaxhighlight lang="powershell">
 git clone https://github.com/MrWhosHack/scum-server-manager.git
@@ -223,13 +201,13 @@ cd scum-server-manager
 
 Or download ZIP from [https://github.com/MrWhosHack/scum-server-manager/releases GitHub Releases]
 
-'''Step 2: Install Python dependencies'''
+Step 2: Install Python dependencies
 
 <syntaxhighlight lang="powershell">
 python -m pip install -r requirements.txt
 </syntaxhighlight>
 
-'''Step 3: Launch the manager'''
+Step 3: Launch the manager
 
 <syntaxhighlight lang="powershell">
 python scum_server_manager_pyside.py
@@ -239,27 +217,26 @@ Or simply double-click '''run_scum_pyside.bat''' (auto-installs dependencies and
 
 === Method 2: One-Click Executable (Portable) ===
 
-'''Perfect for users who don't want to install Python'''
+Perfect for users who don't want to install Python
 
 # Visit [https://github.com/MrWhosHack/scum-server-manager/releases GitHub Releases]
 # Download '''SCUM-Server-Manager.exe'''
 # Double-click the executable
 # If Windows SmartScreen warns, click "More info" → "Run anyway"
-
-'''Note:''' No installation required - the EXE is fully portable!
+Note No installation required - the EXE is fully portable!
 
 === Method 3: Build Your Own Executable ===
 
-'''For advanced users who want to customize the build'''
+For advanced users who want to customize the build
 
-'''Step 1: Clone the repository'''
+Step 1: Clone the repository
 
 <syntaxhighlight lang="powershell">
 git clone https://github.com/MrWhosHack/scum-server-manager.git
 cd scum-server-manager
 </syntaxhighlight>
 
-'''Step 2: Run the build script'''
+Step 2: Run the build script
 
 <syntaxhighlight lang="powershell">
 pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\build_windows_exe.ps1
@@ -267,11 +244,11 @@ pwsh -NoProfile -ExecutionPolicy Bypass -File .\scripts\build_windows_exe.ps1
 
 Or double-click '''scripts\build_exe.bat'''
 
-'''Step 3: Find the output'''
+Step 3: Find the output
 
 Executable location: '''dist\SCUM-Server-Manager.exe'''
 
----
+
 
 === 🎯 First-Time Setup ===
 
@@ -299,30 +276,25 @@ Use any installation method above to start the manager.
 # Wait for the '''"Server is READY"''' message
 # SCUM game client will launch automatically after a 10-second delay
 
----
+
 
 === 🔥 Firewall Configuration ===
 
-'''Critical:''' Ensure these ports are open in Windows Firewall and your router:
+Critical: Ensure these ports are open in Windows Firewall and your router:
 
-{| class="wikitable"
-|-
-! Port !! Protocol !! Purpose
-|-
+
+Port Protocol  Purpose
 | '''7777''' || UDP || Game port (required)
-|-
 | '''7778''' || UDP || Query port (required)
-|-
 | '''8881''' || TCP || RCON port (optional, for remote admin)
-|}
 
-'''Windows Firewall Quick Guide:'''
+Windows Firewall Quick Guide:
 # Open Windows Defender Firewall
 # Click "Advanced Settings"
 # Create new Inbound Rules for ports 7777 (UDP), 7778 (UDP), 8881 (TCP)
 # Allow the connection for all profiles (Domain, Private, Public)
 
----
+
 
 === 🛠️ Troubleshooting ===
 
@@ -366,43 +338,30 @@ python -m pip install -r requirements.txt
 * Verify '''Logs''' tab shows player connection events
 * Database may need initial scan (automatic on first player)
 
----
+
 
 == 📚 Documentation
 
-'''Complete Guides Available:'''
+Complete Guides Available:
 
-{| class="wikitable"
-|-
+
+
 ! Guide !! Description !! Link
-|-
 | '''Getting Started''' || Quick 5-minute setup guide || [https://github.com/MrWhosHack/scum-server-manager/blob/master/GETTING_STARTED.md Read Guide]
-|-
 | '''Quick Start''' || Fast setup walkthrough || [https://github.com/MrWhosHack/scum-server-manager/blob/master/QUICK_START_GUIDE.md Read Guide]
-|-
 | '''Configuration Reference''' || Complete 365+ settings documentation (1,500+ lines) || [https://github.com/MrWhosHack/scum-server-manager/blob/master/SCUM_CONFIG_GUIDE.md Read Guide]
-|-
 | '''Database Guide''' || SQLiteStudio usage and advanced editing || [https://github.com/MrWhosHack/scum-server-manager/blob/master/SQLITESTUDIO_PRO_GUIDE.md Read Guide]
-|-
 | '''Contributing''' || How to contribute to the project || [https://github.com/MrWhosHack/scum-server-manager/blob/master/CONTRIBUTING.md Read Guide]
-|}
-
----
 
 == 💬 Support & Community
 
 === Get Help ===
 
-{| class="wikitable"
-|-
-! Platform !! Purpose !! Link
-|-
+Platform Purpose Link
 | '''GitHub Issues''' || Report bugs or request features || [https://github.com/MrWhosHack/scum-server-manager/issues Submit Issue]
-|-
 | '''GitHub Discussions''' || Ask questions, share ideas, get help || [https://github.com/MrWhosHack/scum-server-manager/discussions Join Discussion]
-|-
 | '''Official SCUM Discord''' || Join the SCUM community || [https://discord.gg/scum Join Discord]
-|}
+
 
 === Developer ===
 
@@ -410,7 +369,7 @@ python -m pip install -r requirements.txt
 * '''GitHub:''' [https://github.com/MrWhosHack MrWhosHack]
 * '''Project:''' [https://github.com/MrWhosHack/scum-server-manager scum-server-manager]
 
----
+
 
 == 🔗 Additional Links
 
@@ -424,20 +383,13 @@ python -m pip install -r requirements.txt
 
 == ⚠️ Development Status
 
-{| class="wikitable"
-|-
 ! Status !! Notes
-|-
 | '''Testing Phase''' || Currently in active testing - report issues on GitHub
-|-
 | '''Stability''' || Core features stable, advanced features being refined
-|-
 | '''Updates''' || Regular updates and bug fixes
-|-
 | '''Community Driven''' || Open to contributions and feature requests
-|}
 
----
+
 
 == 📝 License
 
@@ -452,16 +404,14 @@ This project is licensed under the '''Creative Commons Attribution-NonCommercial
 
 Full license: [https://creativecommons.org/licenses/by-nc-sa/4.0/ CC BY-NC-SA 4.0]
 
----
 
 == 🏆 Credits
 
-* '''Created by:''' MrWhosHack
+* '''Created by:''' MrWhosHacking
 * '''Built with:''' Python 3, PySide6 (Qt6), psutil, SQLite
 * '''Inspired by:''' The SCUM community's need for better server management tools
 * '''Special Thanks:''' SCUM development team, Qt framework contributors, and all beta testers
 
----
 
 [[Category:Modding]]
 [[Category:Server Administration]]
