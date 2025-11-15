@@ -1,22 +1,20 @@
-# SCUM Server Manager - Professional Wiki Page
-**Copy this content to: https://scum.wiki.gg/wiki/SCUM_Server_Manager?veaction=edit**
+# 🎮 SCUM Server Manager
+## Professional GUI-Based Server Administration & Database Management
 
----
-
-## 🎮 SCUM Server Manager
-### Professional GUI-Based Server Administration & Database Management
+> **Note:** This page contains MediaWiki-formatted content for https://scum.wiki.gg/wiki/SCUM_Server_Manager  
+> For GitHub-friendly documentation, see [README.md](README.md) and [GETTING_STARTED.md](GETTING_STARTED.md)
 
 ---
 
 ## 📋 Description
 
-'''SCUM Server Manager''' is the ultimate '''all-in-one administration suite''' for SCUM dedicated servers, designed to give server owners complete control without the complexity. Built from the ground up with modern '''Python and Qt6 technology''', this professional-grade tool transforms server management from a tedious chore into an effortless, streamlined experience.
+**SCUM Server Manager** is the ultimate **all-in-one administration suite** for SCUM dedicated servers, designed to give server owners complete control without the complexity. Built from the ground up with modern **Python and Qt6 technology**, this professional-grade tool transforms server management from a tedious chore into an effortless, streamlined experience.
 
-=== What Makes It Special ===
+### What Makes It Special
 
-Gone are the days of manually editing configuration files, searching through endless logs, and juggling multiple tools. SCUM Server Manager consolidates '''everything into a single, elegant GUI''' that's powerful enough for veterans yet approachable for newcomers. Whether you're running a casual PvE server or a hardcore PvP community, this manager adapts to your needs.
+Gone are the days of manually editing configuration files, searching through endless logs, and juggling multiple tools. SCUM Server Manager consolidates **everything into a single, elegant GUI** that's powerful enough for veterans yet approachable for newcomers. Whether you're running a casual PvE server or a hardcore PvP community, this manager adapts to your needs.
 
-=== Complete Server Control ===
+### Complete Server Control
 
 Take command of '''365+ server settings''' spanning every aspect of the SCUM experience:
 * Time cycles and weather systems
@@ -29,33 +27,26 @@ Take command of '''365+ server settings''' spanning every aspect of the SCUM exp
 * Crafting speeds and blueprints
 * And much more...
 
-'''Eight expertly crafted presets''' let you instantly configure your server for different play styles, while advanced users can fine-tune every parameter for the perfect custom experience.
+**Eight expertly crafted presets** let you instantly configure your server for different play styles, while advanced users can fine-tune every parameter for the perfect custom experience.
 
-=== Real-Time Intelligence ===
+### Real-Time Intelligence
 
 Monitor your server's heartbeat with:
-* '''Live player tracking''' - Instant connection/disconnection alerts
-* '''Comprehensive session histories''' - Play time, connection patterns, IP tracking
-* '''SQLite database integration''' - Detailed player analytics and inventory data
-* '''Performance monitoring''' - CPU, RAM, and disk usage tracking
-* '''Multi-category logging''' - Separate logs for server, players, admin, and errors
+- **Live player tracking** - Instant connection/disconnection alerts
+- **Comprehensive session histories** - Play time, connection patterns, IP tracking
+- **SQLite database integration** - Detailed player analytics and inventory data
+- **Performance monitoring** - CPU, RAM, and disk usage tracking
+- **Multi-category logging** - Separate logs for server, players, admin, and errors
 
-=== Professional Features ===
+### Professional Features
 
-{| class="wikitable"
-|-
-! Feature !! Description
-|-
-| '''GUI Configuration Editor''' || Modify all INI files through an intuitive graphical interface
-|-
-| '''Database Management''' || Built-in SQLiteStudio for advanced player data manipulation
-|-
-| '''Admin Controls''' || Kick, ban, and teleport players with one click (RCON support)
-|-
-| '''Smart Automation''' || Auto-detection of server paths, automatic backups, intelligent log parsing
-|-
-| '''Modern Dark Theme''' || Professional Qt6 interface with smooth animations and responsive design
-|}
+| Feature | Description |
+|---------|-------------|
+| **GUI Configuration Editor** | Modify all INI files through an intuitive graphical interface |
+| **Database Management** | Built-in SQLiteStudio for advanced player data manipulation |
+| **Admin Controls** | Kick, ban, and teleport players with one click (RCON support) |
+| **Smart Automation** | Auto-detection of server paths, automatic backups, intelligent log parsing |
+| **Modern Dark Theme** | Professional Qt6 interface with smooth animations and responsive design |
 
 ---
 
