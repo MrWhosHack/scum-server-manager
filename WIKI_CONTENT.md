@@ -6,17 +6,39 @@ Copy-paste content for https://scum.wiki.gg/wiki/SCUM_Server_Manager
 
 ## Description
 
-**SCUM Server Manager** is a professional-grade, open-source administration tool for SCUM dedicated servers. Built with Python and PySide6, it provides a modern graphical interface for complete server control, configuration management, player administration, and real-time monitoring.
+**SCUM Server Manager** is the ultimate all-in-one administration suite for SCUM dedicated servers, designed to give server owners complete control without the complexity. Built from the ground up with modern Python and Qt6 technology, this professional-grade tool transforms server management from a tedious chore into an effortless, streamlined experience.
 
-The manager gives server administrators full access to 365+ server settings across all configuration files (ServerSettings.ini, Game.ini, Engine.ini, Scalability.ini, Input.ini), along with powerful database editing capabilities, player tracking, and automated server management features.
+### What Makes It Special
 
-**License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+Gone are the days of manually editing configuration files, searching through endless logs, and juggling multiple tools. SCUM Server Manager consolidates everything into a single, elegant interface that's powerful enough for veterans yet approachable for newcomers. Whether you're running a casual PvE server or a hardcore PvP community, this manager adapts to your needs.
 
-**Platform:** Windows 10/11
+### Complete Server Control
 
-**Requirements:** Python 3.8+, PySide6, psutil
+Take command of **365+ server settings** spanning every aspect of the SCUM experience—from time cycles and weather systems to combat mechanics, loot spawns, base building, economy, and AI behavior. Eight expertly crafted presets let you instantly configure your server for different play styles (PvE Casual, PvP Hardcore, RP Realism, High Action, and more), while advanced users can fine-tune every parameter for the perfect custom experience.
 
-**Repository:** [GitHub - MrWhosHack/scum-server-manager](https://github.com/MrWhosHack/scum-server-manager)
+### Real-Time Intelligence
+
+Monitor your server's heartbeat with live player tracking, instant connection/disconnection alerts, and comprehensive session histories. The integrated SQLite database stores detailed player analytics—play time, connection patterns, inventory data—giving you unprecedented insight into your community. Built-in performance monitoring keeps tabs on CPU, RAM, and disk usage, ensuring your server stays healthy under any load.
+
+### Power Tools Included
+
+- **Visual Configuration Editor**: Modify all INI files (ServerSettings, Game, Engine, Scalability, Input) through an intuitive GUI
+- **Database Editor**: Direct SQLiteStudio integration for advanced player data manipulation, item spawning, and coordinate editing
+- **Admin Controls**: Kick, ban, and teleport players with one click (RCON support)
+- **Smart Automation**: Auto-detection of server paths, automatic backups, and intelligent log parsing
+- **Multi-Category Logging**: Separate, color-coded logs for server events, player activity, admin actions, and errors
+
+### Open Source & Community-Driven
+
+Released under Creative Commons BY-NC-SA 4.0, SCUM Server Manager is free, transparent, and actively maintained by the community. Contributions are welcomed, and the entire codebase is available for review, modification, and improvement.
+
+---
+
+**Platform:** Windows 10/11  
+**Requirements:** Python 3.8+ (or use the standalone EXE)  
+**License:** [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+**Repository:** [GitHub - MrWhosHack/scum-server-manager](https://github.com/MrWhosHack/scum-server-manager)  
+**Status:** Actively maintained and updated
 
 ---
 
